@@ -1,0 +1,32 @@
+record(ao,"testAO") {
+ field(DESC,"Test Analog Output Channel.")
+ field(DTYP,"Raw Soft Channel")
+ field(SCAN,"Passive")
+ field(OROC,".5")
+ field(PREC,"2")
+ field(EGU,"Amps")
+ field(DRVH,"20")
+ field(DRVL,"0")
+ field(HOPR,"20")
+ field(LOPR,"0")
+}
+
+record(calc,"testCALC") {
+ field(DESC,"Test calc record.")
+ field(SCAN,"Passive")
+ field(CALC,"A*7")
+ field(INPA,"testAO CPP")
+ field(EGU,"degF")
+ field(PREC,"1")
+ field(HOPR,"200")
+ field(LOPR,"")
+ field(HIHI,"180")
+ field(LOLO,"130")
+ field(HIGH,"160")
+ field(LOW,"140")
+ field(HHSV,"MAJOR")
+ field(HSV,"MINOR")
+ field(LLSV,"MAJOR")
+ field(LSV,"MINOR")
+}
+

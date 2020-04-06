@@ -1,0 +1,4 @@
+epicsEnvSet("ARCH","linux-arm")
+epicsEnvSet("IOC","iocdevIOC")
+epicsEnvSet("TOP","/home/rmigliori/git/epics-base-3.14/dev")
+epicsEnvSet("EPICS_BASE","/home/rmigliori/git/epics-base-3.14")
