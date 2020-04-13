@@ -1,5 +1,5 @@
 record(ao,"testAO") {
- field(DESC,"Test Analog Output Channel.")
+ field(DESC,"Test analog output record.")
  field(DTYP,"Raw Soft Channel")
  field(SCAN,"Passive")
  field(OROC,".5")
@@ -30,3 +30,15 @@ record(calc,"testCALC") {
  field(LSV,"MINOR")
 }
 
+record(bo, "rpi:trigger")
+{
+	field(DESC,"trigger PV")
+	field(ZNAM, "off")
+	field(ONAM, "on")
+}
+
+record(stringout, "rpi:message")
+{
+	field(DESC,"message on the RPi")
+	field(VAL,"RPi default message") 
+}
